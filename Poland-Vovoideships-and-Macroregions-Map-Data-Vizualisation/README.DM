@@ -12,14 +12,14 @@ This folder contains GeoJSON files for Poland's administrative divisions and mac
   - These edits include:
     - Fixes to the spelling and capitalization of voivodeship names.
 
-- Additionally, I created a new dataset by aggregating the provinces into **macroregions** (in Polish). The file **Poland-Macroregions_v01.json** contains the updated data, which divides the provinces into the following macroregions:
-  - South-Western
-  - Northern
-  - Eastern
-  - North-Western
-  - Central
-  - Southern
-  - Mazowieckie Region (separate from other macroregions)
+- Additionally, I created a new dataset by aggregating the provinces into **macroregions** (in Polish). The file **Poland-Macroregions_v01.json** contains the updated data, which divides the provinces into the following macroregions (in accordance with NUTS 1 classification from 2018):
+  - South-Western (Południowo-Zachodni)
+  - Northern (Północny)
+  - Eastern (Wschodni)
+  - North-Western (Północno-Zachodni)
+  - Central (Centralny)
+  - Southern (Południowy)
+  - Mazowieckie Region (separate from other macroregions) (Województwo Mazowieckie)
 
 ### License
 This repository and its content are licensed under the **MIT License (2016)**. The full text of the license is available in the [LICENSE](./LICENSE) file in this folder.
