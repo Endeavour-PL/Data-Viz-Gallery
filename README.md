@@ -3,7 +3,6 @@
 This repository contains a collection of data visualizations and related resources, showcasing various data visualizations, including:
 
 - Power BI dashboards and reports (static screenshots as examples)
-- GeoJSON and TopoJSON files for geographic visualizations (e.g., Poland macroregions)
 - Interactive charts and data visualizations
 - Visualizations created in Excel, PowerPoint, and Tableau
 
