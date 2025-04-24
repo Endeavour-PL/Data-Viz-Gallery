@@ -1,0 +1,50 @@
+# Polish Provinces Shape Map for Power BI
+
+This repository contains a JSON file used for creating a shape map of Polish provinces in Power BI. The original map was sourced from [Power BI Shape Maps by Tobi-DataDetective](https://github.com/Tobi-DataDetective/Power-BI-Shape-Maps/tree/master) under the MIT License. The dataset is also provided under the MIT License.
+
+## Map Customization
+
+I, **Filip Jasiński**, have made the following edits to the original map:
+
+- Corrected typos in province names.
+- Standardized the use of uppercase letters for consistency.
+- Fixed diacritical marks (Polish characters such as ą, ć, ę, ó, etc.) to ensure proper spelling.
+
+The file provided in this repository is **Poland-Vovoideships_v01.json**, which can be used in Power BI.
+
+## Updated Province Names
+
+The updated list of Polish provinces (województwa) in the **Poland-Vovoideships_v01.json** file is as follows:
+
+- Dolnośląskie
+- Kujawsko-Pomorskie
+- Lubelskie
+- Lubuskie
+- Łódzkie
+- Małopolskie
+- Mazowieckie
+- Opolskie
+- Podkarpackie
+- Podlaskie
+- Pomorskie
+- Śląskie
+- Świętokrzyskie
+- Warmińsko-Mazurskie
+- Wielkopolskie
+- Zachodniopomorskie
+
+## Important Note
+
+When using the map in Power BI, please make sure that the province names in your dataset match the names in the JSON file exactly. There are two options for ensuring this:
+
+1. Edit the JSON file to match the names in your dataset.
+2. Modify the dataset to match the names as they appear in the JSON file.
+
+## License
+
+This repository, along with the map, is licensed under the MIT License. You are free to use, modify, and distribute the map, but you must provide appropriate credit to:
+
+- **Tobi-DataDetective** for the original map (source: [Power BI Shape Maps by Tobi-DataDetective](https://github.com/Tobi-DataDetective/Power-BI-Shape-Maps/tree/master)).
+- **Filip Jasiński** for editing and improving the map (corrected typos, standardized letters, and fixed diacritical marks).
+
+For more details, visit the [MIT License](https://opensource.org/licenses/MIT).
