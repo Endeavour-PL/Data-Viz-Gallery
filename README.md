@@ -5,6 +5,7 @@ This repository contains a collection of data visualizations and related resourc
 - Power BI dashboards and reports (static screenshots as examples)
 - Interactive charts and data visualizations
 - Visualizations created in Excel, PowerPoint, and Tableau
+- JSON maps for data viz (tested to be working with Power BI)
 
 ## Why this Repository:
 - A collection of real-world examples showcasing data analysis and visual storytelling.
