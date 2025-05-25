@@ -1,0 +1,56 @@
+# Polish Macroregions Shape Map for Power BI
+
+This repository contains a **TopoJSON** file used for creating a shape map of 7 macroregions of Poland in Power BI.  
+The original map with 16 provinces (województwa) was sourced from [Power BI Shape Maps by Tobi-DataDetective](https://github.com/Tobi-DataDetective/Power-BI-Shape-Maps/tree/master) under the MIT License.
+
+## Map Customization
+
+I, **Filip Jasiński**, have made the following edits to the original map:
+
+- Added a new field `"region"` to each province object in the TopoJSON file.
+- Each of the 16 provinces has been assigned to one of **7 macroregions** based on a custom classification.
+- The map structure (16 geometries) has been preserved for maximum compatibility, but macroregion-level analysis is now possible in Power BI.
+
+The file provided in this repository is:  
+**Poland-Voivodeships-with-Regions.topojson**  
+It is ready to use in Power BI as a custom shape map.
+
+## Macroregion Classification
+
+Each province (województwo) has been assigned to one of the following macroregions:
+
+- Południowy
+- Południowo-Zachodni
+- Północno-Zachodni
+- Północny
+- Centralny
+- Wschodni
+- Mazowieckie (treated as a standalone macroregion)
+
+## How to Use in Power BI
+
+- Load the `Poland-Macroregions_v01.topojson` file in the **Shape Map** visual in Power BI.
+- Make sure your dataset contains a column with macroregion names that **exactly match the values in the `region` field** from the JSON file:
+  - Południowy
+  - Południowo-Zachodni
+  - Północno-Zachodni
+  - Północny
+  - Centralny
+  - Wschodni
+  - Mazowieckie
+- If the naming in your dataset differs, either:
+  1. Edit the TopoJSON file to match your dataset, or
+  2. Update your dataset to use the macroregion names listed above.
+
+> **Note:** This map is designed specifically for macroregional visualization. It does not support province-level coloring or drill-down.
+
+## License
+
+This repository and map are provided under the **MIT License**.  
+You are free to use, modify, and distribute the map, but please provide appropriate credit to:
+
+- **Tobi-DataDetective** for the original TopoJSON map of Polish provinces  
+  ([Power BI Shape Maps by Tobi-DataDetective](https://github.com/Tobi-DataDetective/Power-BI-Shape-Maps/tree/master))
+- **Filip Jasiński** for extending the map with macroregion-level metadata.
+
+For full license terms, visit the [MIT License](https://opensource.org/licenses/MIT).
